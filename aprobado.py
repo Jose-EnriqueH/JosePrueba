@@ -8,8 +8,11 @@ Este es un archivo temporal
 
 def determinaraprobado(promedio):
     if promedio>11:
-        print("Aprobado")
+        resultado="Aprobado"
     else:
-        print("Desaprobado")
+        resultado="Desaprobado"
+    return resultado
+
+print(determinaraprobado(5))
     
     
