@@ -13,6 +13,7 @@ def determinaraprobado(promedio):
         resultado="Desaprobado"
     return resultado
 
+promedio = int(input("Promedio"))
 print(determinaraprobado(5))
     
     
